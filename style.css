@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Times New Roman;
+}
+:root{
+    --white-color:#fff;
+    --primary-color:#000;
+    --cream-color:#FDF5DF;
+    --accent-green-color:#5EBEC4;
+    --dark-blue-color:#00008b;
+    --pink-color:#F92C85;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}   
+/*header*/
+header{
+    background: var(--cream-color);
+    color: var(--primary-color);
+}
+.nav-bar{
+    padding: 30px 0;
+}
+ul li a{
+    margin: 0 10px;
+    padding: 0 5px;
+    color: var(--pink-color);
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--accent-green-color);
+    color: var(--primary-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 0 5px;
+    font-weight: 500;
+}
+.btn:hover{
+    background-color: darkred;
+    color: var(--primary-color);
+    border: 2px solid var(--accent-green-color);
+}
+.content{
+    height: 60vh;
+}
+span{
+    color: var(--dark-blue-color);
+}
+.btn2{
+    width: 140px;
+}
+.right img{
+    width: 60%;
+}
+h4, p{
+    font-family: Times New Roman;
+}
+/*about sec*/
+.about-me-sec{
+    min-height: 100vh;
+    background-color: var(--cream-color);
+    color: var(--primary-color);
+}
+.about-me-sec hr{
+    border: 2px solid var(--pink-color);
+    margin-bottom: 2rem;
+}
+/*contact us*/
+.my-contact-sec{
+    min-height: 40vh;
+    background-color: var(--cream-color);
+    color: var(--primary-color);
+}
+.my-contact-sec hr{
+    border: 2px solid var(--pink-color);
+    margin-bottom: 2rem;
+}
+.contact-content span{
+    color: var(--accent-green-color);
+}
+
+
+/*all class using many times*/
+.layout{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.upperclass{
+    text-transform: uppercase;
+}
+.f-w-500{
+    font-weight: 500;
+}
+.f-w-600{
+    font-weight: 600;
+}
+.f-w-700{
+    font-weight: 700;
+}
+.f-w-800{
+    font-weight: 800;
+}
+.letter-spacing2{
+    letter-spacing: 2px;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.my-t-10{
+    margin-top: 10px;
+}
+.my-t-20{
+    margin-top: 20px;
+}
+.my-t-40{
+    margin-top: 40px;
+}
+.pd-t-30{
+    padding-top: 30px;
+}
+.w55{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.f-size{
+    font-size: larger;
+}
